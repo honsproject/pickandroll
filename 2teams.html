@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/foundation.css">
+  <link href="css/app.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+  body,td,th {
+	font-family: "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif;
+}
+body {
+	background-color: #f15a2b;
+}
+  </style>
+<script src="phonegap-1.2.0.js"></script>
+
+<script src="js/jquery-2.1.0.js"></script>
+<script type="text/javascript" src="js/tap.js"></script>
+<script src="/js/vendor/fastclick.js"></script>
+<script src="/js/foundation.min.js"></script>
+<script src="draggabilly.pkgd.js"></script>
+
+
+<script><!--play sound--> 
+$(document).ready(function() { 
+var obj = document.createElement("audio"); 
+obj.setAttribute("src", "sounds/button.mp3") 
+$.get(); 
+
+$(".playSound").click(function() { 
+obj.play(); 
+}); 
+}); 
+</script><!--play sound--> 
+  <body>
+
+<div id="all">
+
+
+  <div id="top_separator"></div>
+<!--dragabble window container-->
+<div id="container">
+<img src="img/players/empty_long.png"  alt="" width="390"/><br>
+<img src="img/players/empty_long.png"  alt="" width="363" height="48"/> <br>
+<br>
+<img src="img/players/team_a/point_b.png"  alt="" width="120" id="ex6" class="player_img"/> 
+<img id="ex1" class="player_img" src="img/players/team_a/point.png"  alt="" width="120" /><img src="img/players/empty_long.png"  alt="" width="402"/> <img id="ex11" class="player_img" src="img/players/team_b/point.png"  alt="" width="120" /> 
+<img src="img/players/team_b/point_b.png"  alt="" width="120" id="ex16" class="player_img"/><br>
+ <img src="img/players/team_a/shooting_b.png"  alt="" width="120" id="ex7" class="player_img"/> 
+ <img id="ex2" class="player_img" src="img/players/team_a/shooting.png"  alt="" width="120" /><img src="img/players/empty_long.png"  alt="" width="402"/> <img id="ex12" class="player_img" src="img/players/team_b/shooting.png"  alt="" width="120" />
+  <img src="img/players/team_b/shooting_b.png"  alt="" width="120" id="ex17" class="player_img"/><br>
+ <img src="img/players/team_a/center_b.png"  alt="" width="120" id="ex8" class="player_img"/> 
+ <img id="ex3" class="player_img" src="img/players/team_a/center.png"  alt="" width="120" /><img src="img/players/empty_long.png"  alt="" width="402"/> <img id="ex13" class="player_img" src="img/players/team_b/center.png"  alt="" width="120" />
+ <img src="img/players/team_b/center_b.png"  alt="" width="120" id="ex18" class="player_img"><br>
+ <img src="img/players/team_a/small_b.png"  alt="" width="120" id="ex9" class="player_img"/> 
+ <img id="ex4" class="player_img" src="img/players/team_a/small.png"  alt="" width="120" /><img src="img/players/empty_long.png"  alt="" width="402"/> <img id="ex14" class="player_img" src="img/players/team_b/small.png"  alt="" width="120" />
+ <img src="img/players/team_b/small_b.png"  alt="" width="120" id="ex19" class="player_img"/><br>
+ <img src="img/players/team_a/power_b.png"  alt="" width="120" id="ex10" class="player_img"/>
+ <img id="ex5" class="player_img" src="img/players/team_a/power.png"  alt="" width="120" /><img src="img/players/empty_long.png"  alt="" width="402"/> <img id="ex15" class="player_img" src="img/players/team_b/power.png"  alt="" width="120" /> 
+ <img src="img/players/team_b/power_b.png"  alt="" width="120" id="ex20" class="player_img"/><br>
+</div>
+</body>
+</html>
